@@ -33,3 +33,6 @@ Pada sistem informasi tersebut terdapat kelas Pembeli, kelas Pesanan, dan kelas 
 5. Hitung total pendapatan
 
     <img src="5.png">
+
+## Link Youtube Demo Program
+    https://youtu.be/gSe6Jws9IiA
