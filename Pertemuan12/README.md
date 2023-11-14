@@ -30,8 +30,8 @@
         * **Kegunaan:** Bellman-Ford Algorithm digunakan untuk menemukan jalur terpendek dari satu simpul ke semua simpul lainnya dalam graf dengan bobot yang mungkin negatif. Algoritma ini berguna dalam mengatasi masalah routing di jaringan komunikasi yang dapat memiliki bobot negatif.
 2. Variabel `LinkedList list[]` pada class `Graph` digunakan untuk menyimpan representasi struktur data adjacency list. Ini memungkinkan kita merepresentasikan bagaimana setiap simpul terhubung dengan simpul-simpul lainnya dalam graf.
 3. Karena memudahkan untuk menambahkan simpul baru ke awal daftar tetangga dalam representasi adjacency list. Ini lebih sederhana dan efisien karena kompleksitas waktu operasi `addFirst()` yang artinya dilakukan dengan cepat dan tidak tergantung pada jumlah elemen yang sudah ada.
-4. 
-5. 
+4. Dalam metode removeEdge, kita melintasi linked list sampai menemukan edge yang sesuai, sambil menyimpan node sebelumnya (`prev`). Setelah menemukannya, kita bisa menghapus edge dengan mengubah pointer `next` pada node sebelumnya atau pada vertex itu sendiri jika node sebelumnya tidak ada (artinya kita berada di awal linked list).
+5. Output pada program saya sudah benar, jadi tidak ada solusi yang diberikan lebih lanjut.
 
 ## 12.3 Praktikum 2
 ### Pertanyaan
